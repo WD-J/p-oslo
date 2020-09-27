@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Stroing"
+    android:orientation="vertical">
+
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/stroing"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"/>
+
+        <TextView
+            android:layout_weight="0"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/regular"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:text="Når strør vi?"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginTop="4dp"
+            android:background="@android:color/darker_gray" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:fontFamily="@font/regular"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="15dp"
+            android:text="Hovedveier hvor det brukes salt strøs innen 5 til 12 timer. Veier hvor det brukes grus strøs innen 5 til 12 timer."/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:layout_weight="0"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/regular"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:text="Strømidler"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginTop="4dp"
+            android:background="@android:color/darker_gray" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:fontFamily="@font/regular"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="15dp"
+            android:text="Vi strør i hovedsak med salt og grus følgende steder:"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:fontFamily="@font/regular"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="15dp"
+            android:text="* Veier
+* Plasser
+* Gangveier
+* Parkeringsplasser
+* Sykkelveier
+* Fortau"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:fontFamily="@font/regular"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="15dp"
+            android:text="Kommunes vinterdrift er på mange punkter forskjellige fra Statens vegvesens drift av riksveier. Det vil derfor forekomme forskjeller mellom statlige og kommunale veier."/>
+
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:layout_weight="0"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/regular"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:text="Grus"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginTop="4dp"
+            android:background="@android:color/darker_gray" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:fontFamily="@font/regular"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="15dp"
+            android:text="Grus er kommunens foretrukne strømiddel, og brukes på steder med mindre trafikk:"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:fontFamily="@font/regular"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="15dp"
+            android:text="* Fortauer
+* Mindre trafikkerte veier
+* Separate gang- og sykkelveier
+* Parkeringsplasser og turveier"/>
+
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:layout_weight="0"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/regular"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:text="Salt"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginTop="4dp"
+            android:background="@android:color/darker_gray" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:fontFamily="@font/regular"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="15dp"
+            android:text="Som følge av politiske vedtak og føringer strør vi med salt kun på utvalgte steder og under streng overvåking. Vi bruker salt der hvor grus ikke gir tilstrekkelig virkning:"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:fontFamily="@font/regular"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="15dp"
+            android:text="* Kjørebane og sykkelfelt på hovedveier
+* Utvalgte bratte bakker i lavtrafikkerte veier"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:layout_weight="0"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/regular"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:text="Spesielle værforhold"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginTop="4dp"
+            android:background="@android:color/darker_gray" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:fontFamily="@font/regular"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="15dp"
+            android:text="Ved spesielle værforhold, som underkjølt regn eller særlig lave temperaturer, kan det hende vi må bruke andre strømidler på veinettet. For eksempel kan det da forekomme salting av boligveier eller bruk av sand på hovedveier."/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"/>
+
+
+        <TextView
+            android:layout_weight="0"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/regular"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:text="Manglende strøing"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginTop="4dp"
+            android:background="@android:color/darker_gray" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"/>
+
+        <TextView
+            android:onClick="linkclick"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:fontFamily="@font/regular"
+            android:textColor="@color/colorAccent"
+            android:textSize="15dp"
+            android:text="@string/meldmanglendestr"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"/>
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

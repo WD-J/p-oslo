@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlanlagtAsfaltering">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/roadwork"
+            android:paddingVertical="50dp"
+            android:layout_weight="5"/>
+
+        <TextView
+            android:layout_weight="0"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/regular"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:text="@string/planlagt_asfaltering"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:fontFamily="@font/regular"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="15dp"
+            android:text="@string/planlagt_asfaltering2"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

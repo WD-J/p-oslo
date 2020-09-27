@@ -1,0 +1,10 @@
+<resources xmlns:app="http://schemas.android.com/apk/res-auto">
+    <string name="app_name">P - Oslo</string>
+
+    <string name="planlagt_asfaltering">Planlagt asfaltering av hele gater, fortau og sykkelfelt starter på våren og foregår så lenge været tillater det. Vi publiserer planer fortløpende utover sesongen.</string>
+    <string name="planlagt_asfaltering2">Nå er det ikke planlagt mer asfaltering før til våren 2019. Vi regner med å starte opp igjen etter påsken 2019, hvis forholdene tillater det.</string>
+
+    <string name="meldmanglende"><u>Meld fra om manglende rengjøring</u></string>
+    <string name="meldmanglendestr"><u>Meld fra om manglende strøing</u></string>
+
+</resources>
